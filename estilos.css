@@ -1,5 +1,13 @@
 *{
     margin: 0;
+   
+    }
+    body{
+        background-image:url('FondoWeb2.jpg');
+        background-size: cover; /* La imagen cubre toda el área */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+      
+       
     }
 .titulo {
     color: gold;
@@ -7,5 +15,17 @@
     display: flex;
     justify-content: center;     
     background-color: black;   
+}
+.mainContainer{
+    
+}
+.menu1{
+    color: azure;
+}
+.introduccion{
+    padding: 50px;
+   width: 500px;
+    background-color: azure;
+   
 }
 
