@@ -5,16 +5,31 @@
     body{
         background-image:url('FondoWeb2.jpg');
         background-size: cover; /* La imagen cubre toda el área */
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-      
+        background-repeat: no-repeat; /* Evita que la imagen se repita */      
+    }
+    .encabezado{
+        display: flex;   
        
+        background-color: black; 
     }
 .titulo {
     color: gold;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     display: flex;
-    justify-content: center;     
-    background-color: black;   
+    justify-content: center;  
+    margin: 0 auto;   
+}
+.avatar{
+    display: flex;
+    margin: 1vh;    
+    width: 20vh;
+    height: 20vh; 
+    border-radius: 50%;
+    border-style: solid; 
+}
+.acercademi{
+    font-weight: bold;
+   font-size: 3vh;
 }
 .mainContainer{
     
@@ -22,10 +37,58 @@
 .menu1{
     color: azure;
 }
+
 .introduccion{
     padding: 50px;
    width: 500px;
     background-color: azure;
    
+}
+.intro {
+    text-align: center;
+    margin: 40px 0;
+
+}
+.intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+.intro p {
+    font-size: 1.2em;
+    color:white;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.service {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.service p {
+    font-size: 1em;
+    color: #666;
+}
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+.cta a {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
 }
 
